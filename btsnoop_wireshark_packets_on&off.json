@@ -1,0 +1,2492 @@
+[
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.583629000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "24",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "355",
+      "bthci_cmd.command_response_delta": "1.66"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "24",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.min_interval": "160",
+      "bthci_vendor.broadcom.le.multi_advertising.max_interval": "210",
+      "bthci_vendor.broadcom.le.multi_advertising.type": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.address_type": "0x00",
+      "bthci_vendor.broadcom.bd_addr": "00:00:00:00:00:01",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map": "0x07",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map_tree": {
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.reserved": "0x00",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.39": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.38": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.37": "0x01"
+      },
+      "bthci_vendor.broadcom.le.multi_advertising.filter_policy": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "1",
+      "bthci_vendor.broadcom.le.multi_advertising.tx_power": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.585289000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "354",
+      "bthci_evt.command_response_delta": "1.66"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.585511000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.586609000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": ""
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.586810000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "359",
+      "bthci_cmd.command_response_delta": "0.879"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.587689000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "358",
+      "bthci_evt.command_response_delta": "0.879"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.587925000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "361",
+      "bthci_cmd.command_response_delta": "1.05"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "1"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.588975000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "360",
+      "bthci_evt.command_response_delta": "1.05"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.594942000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "24",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "363",
+      "bthci_cmd.command_response_delta": "0.989"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "24",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.min_interval": "160",
+      "bthci_vendor.broadcom.le.multi_advertising.max_interval": "210",
+      "bthci_vendor.broadcom.le.multi_advertising.type": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.address_type": "0x00",
+      "bthci_vendor.broadcom.bd_addr": "00:00:00:00:00:02",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map": "0x07",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map_tree": {
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.reserved": "0x00",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.39": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.38": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.37": "0x01"
+      },
+      "bthci_vendor.broadcom.le.multi_advertising.filter_policy": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "2",
+      "bthci_vendor.broadcom.le.multi_advertising.tx_power": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.595931000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "362",
+      "bthci_evt.command_response_delta": "0.989"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.596184000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.597145000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": ""
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.597301000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "367",
+      "bthci_cmd.command_response_delta": "1.058"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.598359000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "366",
+      "bthci_evt.command_response_delta": "1.058"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.598531000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "369",
+      "bthci_cmd.command_response_delta": "1.57"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "2"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:30.600101000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "368",
+      "bthci_evt.command_response_delta": "1.57"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.058914000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "371",
+      "bthci_cmd.command_response_delta": "7.613"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "1"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.066527000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "370",
+      "bthci_evt.command_response_delta": "7.613"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.066667000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "373",
+      "bthci_cmd.command_response_delta": "1.068"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.067735000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "372",
+      "bthci_evt.command_response_delta": "1.068"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.067866000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "375",
+      "bthci_cmd.command_response_delta": "1.724"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.069590000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "374",
+      "bthci_evt.command_response_delta": "1.724"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.069700000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "377",
+      "bthci_cmd.command_response_delta": "1.901"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "2"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.071601000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "376",
+      "bthci_evt.command_response_delta": "1.901"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.071719000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "379",
+      "bthci_cmd.command_response_delta": "1.309"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.073028000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "378",
+      "bthci_evt.command_response_delta": "1.309"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.073126000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "381",
+      "bthci_cmd.command_response_delta": "1.366"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.074492000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "380",
+      "bthci_evt.command_response_delta": "1.366"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.078956000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "24",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "383",
+      "bthci_cmd.command_response_delta": "1.286"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "24",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.min_interval": "160",
+      "bthci_vendor.broadcom.le.multi_advertising.max_interval": "210",
+      "bthci_vendor.broadcom.le.multi_advertising.type": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.address_type": "0x00",
+      "bthci_vendor.broadcom.bd_addr": "00:00:00:00:00:01",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map": "0x07",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map_tree": {
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.reserved": "0x00",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.39": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.38": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.37": "0x01"
+      },
+      "bthci_vendor.broadcom.le.multi_advertising.filter_policy": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "1",
+      "bthci_vendor.broadcom.le.multi_advertising.tx_power": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.080242000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "382",
+      "bthci_evt.command_response_delta": "1.286"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.080409000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.081363000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": ""
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.081524000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "387",
+      "bthci_cmd.command_response_delta": "1.376"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.082900000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "386",
+      "bthci_evt.command_response_delta": "1.376"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.083072000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "389",
+      "bthci_cmd.command_response_delta": "1.169"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "1"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.084241000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "388",
+      "bthci_evt.command_response_delta": "1.169"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.084697000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "24",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "391",
+      "bthci_cmd.command_response_delta": "1.294"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "24",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.min_interval": "160",
+      "bthci_vendor.broadcom.le.multi_advertising.max_interval": "210",
+      "bthci_vendor.broadcom.le.multi_advertising.type": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.address_type": "0x00",
+      "bthci_vendor.broadcom.bd_addr": "00:00:00:00:00:02",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map": "0x07",
+      "bthci_vendor.broadcom.le.multi_advertising.channel_map_tree": {
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.reserved": "0x00",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.39": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.38": "0x01",
+        "bthci_vendor.broadcom.le.multi_advertising.channel_map.37": "0x01"
+      },
+      "bthci_vendor.broadcom.le.multi_advertising.filter_policy": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "2",
+      "bthci_vendor.broadcom.le.multi_advertising.tx_power": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.085991000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "390",
+      "bthci_evt.command_response_delta": "1.294"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x01"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.086173000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.087389000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": ""
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.087601000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "395",
+      "bthci_cmd.command_response_delta": "0.945"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.088546000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "394",
+      "bthci_evt.command_response_delta": "0.945"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.088698000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "397",
+      "bthci_cmd.command_response_delta": "1.047"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x01",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "2"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:32.089745000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "396",
+      "bthci_evt.command_response_delta": "1.047"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.589371000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "399",
+      "bthci_cmd.command_response_delta": "2.473"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "1"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.591844000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "398",
+      "bthci_evt.command_response_delta": "2.473"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.595765000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "401",
+      "bthci_cmd.command_response_delta": "1.656"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.597421000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "400",
+      "bthci_evt.command_response_delta": "1.656"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.597555000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "403",
+      "bthci_cmd.command_response_delta": "1.047"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.598602000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "402",
+      "bthci_evt.command_response_delta": "1.047"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.600377000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "3",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "405",
+      "bthci_cmd.command_response_delta": "1.678"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "3",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05",
+      "bthci_vendor.broadcom.le.multi_advertising.enable": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "2"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.602055000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "404",
+      "bthci_evt.command_response_delta": "1.678"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x05"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.609325000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "407",
+      "bthci_cmd.command_response_delta": "1.123"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.610448000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "406",
+      "bthci_evt.command_response_delta": "1.123"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x02"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.610526000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd:bthci_vendor.broadcom:btcommon"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0xfd54",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x003f",
+        "bthci_cmd.opcode.ocf": "0x0154"
+      },
+      "bthci_cmd.param_length": "34",
+      "bthci_cmd.parameter": "",
+      "bthci_cmd.response_in_frame": "409",
+      "bthci_cmd.command_response_delta": "0.857"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.parameter_length": "34",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03",
+      "bthci_vendor.broadcom.le.multi_advertising.instance_id": "0",
+      "bthci_vendor.broadcom.data": {
+        "_ws.expert": {
+          "bthci_vendor.broadcom.unexpected_data": "",
+          "_ws.expert.message": "Unexpected data",
+          "_ws.expert.severity": "6291456",
+          "_ws.expert.group": "150994944"
+        }
+      }
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:33.611383000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt:bthci_vendor.broadcom"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "5",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0xfd54",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x003f",
+        "bthci_evt.opcode.ocf": "0x0154"
+      },
+      "bthci_evt.ret_params": "",
+      "bthci_evt.command_in_frame": "408",
+      "bthci_evt.command_response_delta": "0.857"
+    },
+    "bthci_vendor.broadcom": {
+      "bthci_vendor.broadcom.event_code": "0x0e",
+      "bthci_vendor.broadcom.parameter_length": "5",
+      "bthci_vendor.broadcom.number_of_allowed_command_packets": "1",
+      "bthci_vendor.broadcom.opcode": "0xfd54",
+      "bthci_vendor.broadcom.opcode_tree": {
+        "bthci_vendor.broadcom.opcode.ogf": "0x003f",
+        "bthci_vendor.broadcom.opcode.ocf": "0x0154"
+      },
+      "bthci_vendor.broadcom.status": "0x00",
+      "bthci_vendor.broadcom.le.multi_advertising.subcode": "0x03"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.282031000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0x200c",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x0008",
+        "bthci_cmd.opcode.ocf": "0x000c"
+      },
+      "bthci_cmd.param_length": "2",
+      "bthci_cmd.le_scan_enable": "0x00",
+      "bthci_cmd.le_filter_duplicates": "0x01",
+      "bthci_cmd.response_in_frame": "411",
+      "bthci_cmd.command_response_delta": "2.579"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.284610000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "4",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0x200c",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x0008",
+        "bthci_evt.opcode.ocf": "0x000c"
+      },
+      "bthci_evt.status": "0x00",
+      "bthci_evt.command_in_frame": "410",
+      "bthci_evt.command_response_delta": "2.579"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.284774000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0x200b",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x0008",
+        "bthci_cmd.opcode.ocf": "0x000b"
+      },
+      "bthci_cmd.param_length": "7",
+      "bthci_cmd.le_scan_type": "0x01",
+      "bthci_cmd.le_scan_interval": "1168",
+      "bthci_cmd.le_scan_window": "292",
+      "bthci_cmd.le_own_address_type": "0x03",
+      "bthci_cmd.le_scan_filter_policy": "0x00",
+      "bthci_cmd.response_in_frame": "413",
+      "bthci_cmd.command_response_delta": "0.826"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.285600000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "4",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0x200b",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x0008",
+        "bthci_evt.opcode.ocf": "0x000b"
+      },
+      "bthci_evt.status": "0x00",
+      "bthci_evt.command_in_frame": "412",
+      "bthci_evt.command_response_delta": "0.826"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.285683000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0x200b",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x0008",
+        "bthci_cmd.opcode.ocf": "0x000b"
+      },
+      "bthci_cmd.param_length": "7",
+      "bthci_cmd.le_scan_type": "0x01",
+      "bthci_cmd.le_scan_interval": "1168",
+      "bthci_cmd.le_scan_window": "292",
+      "bthci_cmd.le_own_address_type": "0x03",
+      "bthci_cmd.le_scan_filter_policy": "0x00",
+      "bthci_cmd.response_in_frame": "415",
+      "bthci_cmd.command_response_delta": "0.819"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.286502000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "4",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0x200b",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x0008",
+        "bthci_evt.opcode.ocf": "0x000b"
+      },
+      "bthci_evt.status": "0x00",
+      "bthci_evt.command_in_frame": "414",
+      "bthci_evt.command_response_delta": "0.819"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.286608000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_cmd"
+    },
+    "hci_h4": {
+      "direction": "0x00",
+      "type": "0x01"
+    },
+    "bthci_cmd": {
+      "bthci_cmd.opcode": "0x200c",
+      "bthci_cmd.opcode_tree": {
+        "bthci_cmd.opcode.ogf": "0x0008",
+        "bthci_cmd.opcode.ocf": "0x000c"
+      },
+      "bthci_cmd.param_length": "2",
+      "bthci_cmd.le_scan_enable": "0x01",
+      "bthci_cmd.le_filter_duplicates": "0x00",
+      "bthci_cmd.response_in_frame": "417",
+      "bthci_cmd.command_response_delta": "0.917"
+    },
+    "bluetooth": {
+      "addr_str": "controller",
+      "src_str": "host",
+      "dst_str": "controller"
+    }
+  },
+  {
+    "frame": {
+      "time": "Dec  9, 2024 20:18:34.287525000 E. South America Standard Time",
+      "protocols": "bluetooth:hci_h4:bthci_evt"
+    },
+    "hci_h4": {
+      "direction": "0x01",
+      "type": "0x04"
+    },
+    "bthci_evt": {
+      "bthci_evt.code": "0x0e",
+      "bthci_evt.param_length": "4",
+      "bthci_evt.num_command_packets": "1",
+      "bthci_evt.opcode": "0x200c",
+      "bthci_evt.opcode_tree": {
+        "bthci_evt.opcode.ogf": "0x0008",
+        "bthci_evt.opcode.ocf": "0x000c"
+      },
+      "bthci_evt.status": "0x00",
+      "bthci_evt.command_in_frame": "416",
+      "bthci_evt.command_response_delta": "0.917"
+    },
+    "bluetooth": {
+      "addr_str": "host",
+      "src_str": "controller",
+      "dst_str": "host"
+    }
+  }
+]
